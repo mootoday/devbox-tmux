@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetpack-io/devbox/0.10.3/.schema/devbox.schema.json",
+  "packages": [
+    "nodejs@20",
+    "tmux@latest",
+    "tmuxp@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "test -d node_modules || devbox run npm install"
+    ],
+    "scripts": {
+      "tmux": "tmuxp load .config/tmux/tmuxp.yaml"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+session_name: devbox_tmux
+windows:
+  - window_name: dev
+    layout: tiled
+    panes:
+      - shell_command: 
+          - echo "Start something like 'gh dash'"
+      - shell_command: 
+          - devbox run npm run dev
+      - shell_command:
+          - echo "Start something like 'lazygit'"
+      - shell_command:
+          - devbox shell # An empty terminal, run arbitrary commands here

@@ -1,0 +1,202 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "nodejs@20": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#nodejs_20",
+      "source": "devbox-search",
+      "version": "20.11.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xjgg53kjjhwcx4p3dmywjmqjbv82xhyn-nodejs-20.11.1",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/aq4aay71mvhbjnkni9rxjalnpnmmqrzc-nodejs-20.11.1-libv8"
+            }
+          ],
+          "store_path": "/nix/store/xjgg53kjjhwcx4p3dmywjmqjbv82xhyn-nodejs-20.11.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/v2a0w6001v9j9dzwcywjk7sj5djz6nmf-nodejs-20.11.1",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/9g739av3wgvn5vfmagnw2snfmiqh95zc-nodejs-20.11.1-libv8"
+            }
+          ],
+          "store_path": "/nix/store/v2a0w6001v9j9dzwcywjk7sj5djz6nmf-nodejs-20.11.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/00lahyvbxdb24226g6gfxr7dqwz7maii-nodejs-20.11.1",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/vf2zx8s3lql9ky587gabp83mjn7s88cx-nodejs-20.11.1-libv8"
+            }
+          ],
+          "store_path": "/nix/store/00lahyvbxdb24226g6gfxr7dqwz7maii-nodejs-20.11.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rlv9fcq70pniyrm3xy21wgk5rdhdh12h-nodejs-20.11.1",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/77y1yf6i43bznwvqalhxz0l6kd68lqqn-nodejs-20.11.1-libv8"
+            }
+          ],
+          "store_path": "/nix/store/rlv9fcq70pniyrm3xy21wgk5rdhdh12h-nodejs-20.11.1"
+        }
+      }
+    },
+    "tmux@latest": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#tmux",
+      "source": "devbox-search",
+      "version": "3.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9wxjglyr4vnhb2331ar980n2giy951l7-tmux-3.4",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/kh4wqs0d3bxichjrznki2hdlmrs07ay7-tmux-3.4-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9wxjglyr4vnhb2331ar980n2giy951l7-tmux-3.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jjbfmic4zas304grqf8ms706zrrh3q5i-tmux-3.4",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/2a4jhzcwdl9w16m0a09v8958pxmlz826-tmux-3.4-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jjbfmic4zas304grqf8ms706zrrh3q5i-tmux-3.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6mbr808w83nz67b2h5k18w94qv9rxrzf-tmux-3.4",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/dww237ppm6g97m67r126a3scy1fwxmdd-tmux-3.4-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6mbr808w83nz67b2h5k18w94qv9rxrzf-tmux-3.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rdl929zi0pcjqkssvzp44wxybbfwmx0f-tmux-3.4",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/x8gcbgyvrggbzwm757zq052byvqfbhk9-tmux-3.4-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rdl929zi0pcjqkssvzp44wxybbfwmx0f-tmux-3.4"
+        }
+      }
+    },
+    "tmuxp@latest": {
+      "last_modified": "2024-03-27T18:07:41Z",
+      "resolved": "github:NixOS/nixpkgs/feb8fc72187e5beae47d81fc38541fae89e7eaf8#tmuxp",
+      "source": "devbox-search",
+      "version": "1.45.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1dwz8wm6mzn71fvax3dgns1x72940nvr-tmuxp-1.45.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/rv5iaw8sx0nkzf8jaydqak7mhnd15pg1-tmuxp-1.45.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/1dwz8wm6mzn71fvax3dgns1x72940nvr-tmuxp-1.45.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wwa4f9jn5m6g7gi49gcm94jdz9vy0ax2-tmuxp-1.45.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/rd31qdslrs33ngxnqrm282i349rssxn2-tmuxp-1.45.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/wwa4f9jn5m6g7gi49gcm94jdz9vy0ax2-tmuxp-1.45.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/41skakw6vvx5bfs04fdphhacvb0zkrc5-tmuxp-1.45.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/0iwfxgfdz7y6s92sxa8fnh4iismjayvv-tmuxp-1.45.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/41skakw6vvx5bfs04fdphhacvb0zkrc5-tmuxp-1.45.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9j96h5m4wh8cdpjzz3pfgnn63rddw0h9-tmuxp-1.45.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/0lagmsaycbln4dmwjln92lphrqy28l37-tmuxp-1.45.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/9j96h5m4wh8cdpjzz3pfgnn63rddw0h9-tmuxp-1.45.0"
+        }
+      }
+    }
+  }
+}
