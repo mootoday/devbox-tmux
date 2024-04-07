@@ -5,7 +5,7 @@ This demo repo shows the powerful combination of:
 - Tmux ([github.com/tmux/tmux/wiki](https://github.com/tmux/tmux/wiki))
 - tmuxp ([github.com/tmux-python/tmuxp](https://github.com/tmux-python/tmuxp))
 
-<img width="1552" alt="image" src="https://github.com/mootoday/devbox-tmux/assets/154029656/2a69a467-9d52-4b44-abf2-d603d96bdc46">
+<img width="1552" alt="image" src="https://github.com/mootoday/devbox-tmux/assets/154029656/7576ee8d-9d52-4b96-ace4-1fe2e6d59ae8">
 
 ## Getting started
 
