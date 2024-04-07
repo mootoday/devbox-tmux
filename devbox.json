@@ -6,9 +6,6 @@
     "tmuxp@latest"
   ],
   "shell": {
-    "init_hook": [
-      "test -d node_modules || devbox run npm install"
-    ],
     "scripts": {
       "tmux": "tmuxp load .config/tmux/tmuxp.yaml"
     }

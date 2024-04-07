@@ -1,0 +1,12 @@
+version: "0.5"
+
+processes:
+  setup:
+    command: |
+      test -d node_modules || devbox run npm install
+  webapp:
+    command: |
+      npm run dev
+    depends_on:
+      setup:
+        condition: process_completed
