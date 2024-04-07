@@ -30,7 +30,15 @@ No worries, we all got stuck in Tmux at first :-). Either kill your terminal or 
 
 ### Non-tmux team members
 
-For anyone who isn't familiar or doesn't want to use Tmux, they can use Devbox as usual:
+For anyone who isn't familiar or doesn't want to use Tmux, they can use Devbox as usual.
+
+To start all services required by the project:
+
+```bash
+devbox services up
+```
+
+To start a shell with all necessary dependencies:
 
 ```bash
 devbox shell

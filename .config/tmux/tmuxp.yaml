@@ -6,7 +6,7 @@ windows:
       - shell_command: 
           - echo "Start something like 'gh dash'"
       - shell_command: 
-          - devbox run npm run dev
+          - devbox services up
       - shell_command:
           - echo "Start something like 'lazygit'"
       - shell_command:
